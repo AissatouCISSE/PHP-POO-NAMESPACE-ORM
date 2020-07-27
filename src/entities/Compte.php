@@ -37,7 +37,12 @@ class Compte{
   
 
     //function de constructeur
-    public function __construct(array $data)
+    // public function __construct(array $data)
+    // {
+    //     // $this->hydrate($data);
+    // }
+
+    public function __construct()
     {
         // $this->hydrate($data);
     }
@@ -58,16 +63,16 @@ class Compte{
  public function getNumCompte(){ return $this->numcompte;}
  public function getCleRib(){ return $this->clerib;}
 //  public function getClient(){return $this->client;}
- public function getMoral(){return $this->moral;}
+ public function getMoral(){return $this->client;}
 
  
 
 
 // the setters ou mutateur
-public function setIdCompte($id){ $this->id=$id;}
+public function setId($id){ $this->id=$id;}
 public function setNumAgence($numagence){$this->numagence=$numagence;}
 public function setNumCompte($numcompte){$this->numcompte=$numcompte;}
 public function setCleRib($clerib){$this->clerib=$clerib;}
 // public function setClient($client){$this->client=$client;}
-public function setMoral($id){$this->moral=$moral;}
+public function setMoral($moral){$this->client=$moral;}
 }

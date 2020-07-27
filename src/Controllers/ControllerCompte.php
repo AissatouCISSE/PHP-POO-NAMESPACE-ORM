@@ -6,6 +6,7 @@ ini_set('display_errors', 1);
 // require_once '../models/ManagerCompte.php';
 // require_once '../models/Compte.php';
 require "../../config/autoload.php";
+require_once "../../bootstrap.php";
 use  Models\ManagerCompte;
 use  Models\Manager;
 use  Models\Compte;

@@ -31,9 +31,14 @@ class Morale{
   
 
     //function de constructeur
-    public function __construct(array $data)
+//     public function __construct(array $data)
+//     {
+//          $this->compte = new ArrayCollection();
+//     }
+
+    public function __construct()
     {
-         $this->compte = new ArrayCollection();
+          $this->compte = new ArrayCollection();
     }
 
  //function hydrate

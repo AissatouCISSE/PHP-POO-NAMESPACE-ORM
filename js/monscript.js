@@ -88,7 +88,7 @@ e.preventDefault();
 	else if((!adressemployeur.value) || isNaN(adressemployeur.value)==false){
 		alert("Veuillez renseignez correctement l'adresse' de l'employeur!");
 	}
-	else if((!rs.value) || isNaN(rs.value)==false){
+	else if(!rs.value){
 		alert("Veuillez renseignez la raison sociale de l'entreprise!");
 	}
 	 else if((!id.value) || isNaN(id.value)){
@@ -166,7 +166,7 @@ document.getElementById("formulaire").addEventListener("submit", function(e){
 		alert("Veuillez renseignez correctement la raison sociale de l'employeur!");
 		e.preventDefault();
 	}
-	else if((!rc.value) || isNaN(rc.value)==false){
+	else if(!rc.value) {
 		alert("Veuillez rc de l'entreprise!");
 		e.preventDefault();
 	}

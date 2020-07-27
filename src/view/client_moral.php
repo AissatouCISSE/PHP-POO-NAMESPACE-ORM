@@ -30,7 +30,8 @@
  	<h2>Ouverture de compte</h2>
 
 <!-- <form id="formulaire" name="form" action="Controllers/ControllerMoral.php" method="POST"> -->
-	<form id="formulaire" name="form" action="../Controllers/ControllerMoral.php" method="POST">
+	<!-- <form id="formulaire" name="form" action="../Controllers/ControllerMoral.php" method="POST"> -->
+	<form id="formulaire" name="form" action="../../test/addmorale.php" method="POST">
  		<!-- <h4>Infos Compte</h4>-->
  		<div class="choix">
  			<div>

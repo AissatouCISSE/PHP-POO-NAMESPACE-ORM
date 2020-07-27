@@ -24,7 +24,8 @@
  <div class="wrap">
  	<h2>Ouverture de compte</h2>
  	
- 	<form id="formulairecompte"  name="formcompte" action="../Controllers/ControllerCompte.php" method="POST">
+ 	<!-- <form id="formulairecompte"  name="formcompte" action="../Controllers/ControllerCompte.php" method="POST"> -->
+	 <form id="formulairecompte"  name="formcompte" action="../../test/addcompte.php" method="POST">
 
  		<div class="choixcompte" style="display: flex; flex-direction: row;
 	margin-left: 200px; margin-right: 200px">
