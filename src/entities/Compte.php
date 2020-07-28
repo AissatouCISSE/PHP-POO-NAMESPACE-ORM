@@ -65,7 +65,6 @@ class Compte{
 //  public function getClient(){return $this->client;}
  public function getMoral(){return $this->client;}
 
- 
 
 
 // the setters ou mutateur
@@ -74,5 +73,5 @@ public function setNumAgence($numagence){$this->numagence=$numagence;}
 public function setNumCompte($numcompte){$this->numcompte=$numcompte;}
 public function setCleRib($clerib){$this->clerib=$clerib;}
 // public function setClient($client){$this->client=$client;}
-public function setMoral($moral){$this->client=$moral;}
+public function setMoral($moral){$this->moral=$moral;}
 }
